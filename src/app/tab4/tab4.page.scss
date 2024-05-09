@@ -1,0 +1,37 @@
+.hero{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+}
+
+ion-card{
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 360px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+ion-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    place-items: center;
+    place-content: center;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.5em;
+    font-weight: 500;
+}

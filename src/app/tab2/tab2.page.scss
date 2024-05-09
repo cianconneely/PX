@@ -1,0 +1,33 @@
+.hero{
+    height: 100%;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    flex-direction: column;
+}
+
+ion-button{
+    width: 360px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    height: 120px;
+}
+
+.caption{
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+}
+
+ion-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    place-items: center;
+    place-content: center;
+}

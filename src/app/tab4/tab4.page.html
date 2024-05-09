@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Joke History</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">tab4</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+  <ion-card>
+    <h1>Saved Joke</h1>
+    <ion-card-content>
+      <p><strong>Setup:</strong> {{ setup }}</p> <!-- Display the setup of the joke, Data Binding -->
+      <p><strong>Punchline:</strong> {{ punchline }}</p> <!-- Display the punchline of the joke, Data Binding -->
+    </ion-card-content>
+  </ion-card>
+  </section>
+</ion-content>

@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Open Google
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <!-- This button calls the openBrowser method -->
+  <ion-button (click) ="openBrowser()">
+    Open Google!
+  </ion-button>
+  <p class="caption">Sometimes the best jokes are found for yourself.</p>
+  </section>
+</ion-content>
